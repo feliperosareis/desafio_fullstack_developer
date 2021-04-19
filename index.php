@@ -54,24 +54,80 @@
                         <label for="#name">CPF</label>
                         <input type="text" name="name" class="full-width">
                     </div>
-    
+
                     <div class="input-group">
                         <label for="">
                             <input type="radio" name="gender" value="m"> Masculino
                         </label>
-                        
+
                         <label for="">
                             <input type="radio" name="gender" value="f"> Feminino
                         </label>
                     </div>
 
-                    <button class="btn-form">Enviar</button>
+                    <button class="btn-default">Enviar</button>
                 </form>
             </div>
         </div>
     </div>
 </section>
 
+<section class="products">
+    <div class="container">
+        <div class="separator"><span>Sua seleção especial</span></div>
 
+        <ul class="products-list">
+            <?php for( $i = 0; $i < 8; $i++) : ?>
+                <li>
+                    <a href="">
+                        <div class="box-img">
+                            <img src="https://picsum.photos/125/150?grayscale" alt="">
+                        </div>
+                        <div class="box-info">
+                            <p class="product-name">Nome do produto</p>
+                            <p class="product-description">
+                                Descrição do produto um pouco maior, com duas linhas ou três que explica melhor do que se trata.
+                            </p>
+                            <p class="product-old-price">De: R$ <span></span></p>
+                            <p class="product-price">Por: R$ <span></span></p>
+                            <p class="product-installments">ou 2x de R$59,90</p>
+        
+                            <button class="btn-default btn-buy">Comprar</button>
+                        </div>
+                    </a>
+                </li>
+            <?php endfor; ?>
+            
+        </ul>
+    </div>
+</section>
+
+<section class="share">
+    <div class="container">
+        <div class="separator"><span><strong>Compartilhe a novidade</strong></span></div>
+
+        <div class="share-container">
+            <p class="text-center full-width">Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!</p>
+
+            <form action="" class="full-width flex">
+                <div class="box-50">
+                    <div class="input-group">
+                        <label for="#name">name</label>
+                        <input type="text" name="name" class="full-width">
+                    </div>
+                </div>
+                <div class="box-50">
+                    <div class="input-group">
+                        <label for="#email">CPF</label>
+                        <input type="email" name="email" class="full-width">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+
+
+    </div>
+</section>
 
 <?php include("./includes/footer.php") ?>

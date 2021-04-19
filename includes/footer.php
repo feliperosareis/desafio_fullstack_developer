@@ -1,5 +1,9 @@
 
-    <script src="./assets/js/script.js"></script>
+<footer>
+    
+</footer>
+
+<script src="./assets/js/script.js"></script>
 
 </body>
 
