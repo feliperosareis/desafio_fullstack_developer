@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'FreeSans';
+    src: url('../fonts/FreeSans.eot');
+    src: url('../fonts/FreeSans.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/FreeSans.woff2') format('woff2'),
+         url('../fonts/FreeSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+body{
+    color: #888888;
+    font-family: FreeSans;
+}
+.color-white{
+    color: #fff;
+}
+.container{
+    width: 100%;
+
+    /* border: solid #000; */
+}
+.flex-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.title{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.top-background{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    background-color: #707070;
+    z-index: 0;
+    transform: skewY(17deg);
+}
+
+.top-header{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.top-header .menu{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.top-header button{
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #888888;
+    margin: 0 10px 10px 10px;
+    width: 160px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);
+}
+
+.full-width{
+    width: 100%;
+}
+
+.input-group{
+    margin-bottom: 15px;
+}
+
+label{
+    font-size: 12px;
+}
+input[type=text],
+input[type=email]{
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px #707070;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.btn-form{
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: solid 1px #707070;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease .3s;
+}
+.btn-form:hover{
+    background-color: #707070;
+    color: #fff;
+}
+
+.mb-30{
+    margin-bottom: 30px;
+}
+
+.box-70{
+    width: 100%;
+    padding: 0 15px;
+}
+.box-30{
+    width: 100%;
+    padding: 0 15px;
+}
+
+@media screen and (min-width: 1024px){
+    .top-header{
+        margin-bottom: 200px;
+    }
+    .container{
+        /* width: 1140px; */
+        width: 920px;
+        margin: auto;
+    }
+    .top-background{
+        top: -102px;
+        height: 440px;
+        transform: skewY(6deg);
+        
+    }
+    .box-70{
+        width: 66.8%;
+    }
+    .box-30{
+        width: 26.2%;
+    }
+}
