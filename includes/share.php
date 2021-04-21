@@ -8,13 +8,13 @@
             <form action="" class="full-width flex">
                 <div class="box-50">
                     <div class="input-group">
-                        <label for="#name">name</label>
+                        <label for="#name">Nome do seu amigo:</label>
                         <input type="text" name="name" class="full-width">
                     </div>
                 </div>
                 <div class="box-50">
                     <div class="input-group">
-                        <label for="#email">CPF</label>
+                        <label for="#email">E-mail dele:</label>
                         <input type="email" name="email" class="full-width">
                     </div>
                 </div>

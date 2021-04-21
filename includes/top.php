@@ -2,10 +2,11 @@
 <header class="top-header">
 
     <div class="container">
-        <p class="text-center color-white">uma seleção de produtos</p>
-        <h1 class="text-center color-white">especial para você</h1>
-
-        <p class="text-center color-white">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+        <div class="text-container">
+            <p class="color-white">uma seleção de produtos</p>
+            <h1 class="color-white">especial para você</h1>
+            <p class="color-white small-text">Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
+        </div>
 
         <div class="menu flex">
             <a href="https://www.linx.com.br/" target="_blank">
