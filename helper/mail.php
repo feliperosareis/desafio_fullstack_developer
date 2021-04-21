@@ -57,7 +57,7 @@ $mail->Body .= '</td>';
 $mail->Body .= '</tr>';
 $mail->Body .= '<tr>';
 $mail->Body .= '<td height="40">';
-$mail->Body .= '<img src="assets/img/img1.jpg" border="0" style="display: block;">';
+$mail->Body .= '<img src="http://desafio-fullstack-developer.herokuapp.com/assets/img/img1.jpg" border="0" style="display: block;">';
 $mail->Body .= '</td>';
 $mail->Body .= '</tr>';
 $mail->Body .= '<tr>';
@@ -175,7 +175,7 @@ $mail->Body .= '<td height="50"></td>';
 $mail->Body .= '</tr>';
 $mail->Body .= '<tr>';
 $mail->Body .= '<td height="55">';
-$mail->Body .= '<img src="assets/img/img2.jpg" border="0" style="display: block;">';
+$mail->Body .= '<img src="http://desafio-fullstack-developer.herokuapp.com/assets/img/img2.jpg" border="0" style="display: block;">';
 $mail->Body .= '</td>';
 $mail->Body .= '</tr>';
 $mail->Body .= '<tr bgcolor="#707070">';
@@ -197,6 +197,6 @@ if(!$mail->send()){
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
     // echo 'Message has been sent';
-    header('Location: http://localhost/linx/desafio_fullstack_developer/?success=1');
+    header('Location: http://desafio-fullstack-developer.herokuapp.com/?success=1');
     exit();
 }
