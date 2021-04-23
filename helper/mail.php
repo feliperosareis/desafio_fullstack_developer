@@ -13,7 +13,7 @@ $mail->isSMTP();
 $mail->SMTPAuth = true;
 $mail->SMTPSecure = 'tls';
 
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 0;
 
 $mail->Host = 'smtp.gmail.com';
 $mail->Username = 'desafiolinx1@gmail.com';
